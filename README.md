@@ -1,7 +1,8 @@
 # Markopolo KDE
 Una bifurcacion del proyecto [Marcopolo de jazx](https://github.com/jazx/markopolo), pero adaptado al entorno de Kde Neon.
 
-Es un Pequeño y liviano **asistente virtual** contruido en python3, html/css y javascript. Incluye hotword (parabra de iniciacion, ej: Okey google, Hi bixby ), reconocimiento de voz y acciones personalizables mediante comando .sh 
+Es un Pequeño y liviano **asistente virtual** contruido en python3, html/css y javascript.
+Incluye hotword (parabra de iniciacion, ej: Okey, google o Hi, bixby ), reconocimiento de voz y acciones personalizables mediante comandos .sh 
 
 INSTALACION:
 
@@ -23,8 +24,6 @@ Clonar repositorio y conceder permisos al microfono
 
 
 MATERIAL EN YOUTUBE
-
-Indice de videos:
 
 1. [MARKOPOLO - DEMOSTRACION (Hotword y reconcimiento de voz)](https://youtu.be/nRRHNWvaryU)
 
