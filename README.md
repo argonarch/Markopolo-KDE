@@ -4,7 +4,7 @@ Una bifurcacion del proyecto [Marcopolo de jazx](https://github.com/jazx/markopo
 Es un Pequeño y liviano **asistente virtual** contruido en python3, html/css y javascript.
 Incluye hotword (parabra de iniciacion, ej: Okey, google o Hi, bixby ), reconocimiento de voz y acciones personalizables mediante comandos .sh 
 
-INSTALACION:
+## INSTALACION:
 
 Instalar dependencias
 
@@ -22,8 +22,7 @@ Clonar repositorio y conceder permisos al microfono
 
 (Al abrir el navegador clikear en la esquina superior izquierda y PERMITIR cuando el navegaor pregunte por el acceso al mic)
 
-
-MATERIAL EN YOUTUBE
+## MATERIAL EN YOUTUBE
 
 1. [MARKOPOLO - DEMOSTRACION (Hotword y reconcimiento de voz)](https://youtu.be/nRRHNWvaryU)
 
