@@ -1,68 +1,45 @@
-# markopolo 
-Pequeño y liviano asistente escrito en python3, html y javascript. Incluye hotword, reconocimiento de voz y acciones personalizables. 
--
+# Markopolo KDE
+Una bifurcacion del proyecto [Marcopolo de jazx](https://github.com/jazx/markopolo), pero adaptado al entorno de Kde Neon.
 
+Es un Pequeño y liviano **asistente virtual** contruido en python3, html/css y javascript. Incluye hotword (parabra de iniciacion, ej: Okey google, Hi bixby ), reconocimiento de voz y acciones personalizables mediante comando .sh 
 
-INSTALACION / Linuix Mint 20.1 - XFCE
--
-1- Instalar dependencias
+INSTALACION:
 
-    ~ sudo apt install python3-pyaudio libatlas-base-dev screen wmctrl xdotool
+Instalar dependencias
 
-2- Instalar Google Chrome
+    sudo apt install python3-pyaudio libatlas-base-dev screen wmctrl xdotool
+
+Instalar Google Chrome
 
     Visitar https://www.google.com/chrome/index.html
-    para descargar e instalar el archivo DEB.
 
-3- Clonar repositorio
+Clonar repositorio y conceder permisos al microfono
 
-    ~ git clone http://github.com/jazx/markopolo
+    git clone http://github.com/jazx/markopolo
+    cd markopolo
+    sh configurar.sh
 
-4- Dar permisos al microfono
-
-    ~ cd markopolo
-    ~ sh configurar.sh
-
-(cuando se abra el navegador hacer clic en la esquina superior izquierda
-y hacer clic en PERMITIR cuando el navegaor pregunte por el acceso al mic.)
-
-
+(Al abrir el navegador clikear en la esquina superior izquierda y PERMITIR cuando el navegaor pregunte por el acceso al mic)
 
 
 MATERIAL EN YOUTUBE
-(Tutoriales y explicaciones en tiempo real)
--
 
 Indice de videos:
 
-1- MARKOPOLO - Asistente para Linux en Python - Parte 1. DEMOSTRACION (Hotword y reconcimiento de voz)
-https://youtu.be/nRRHNWvaryU
+1. [MARKOPOLO - DEMOSTRACION (Hotword y reconcimiento de voz)](https://youtu.be/nRRHNWvaryU)
 
+1. [MARKOPOLO - INSTALACION (Dependencias y configuracion)](https://youtu.be/PpXvSYYjAzw)
 
-2- MARKOPOLO - Asistente para Linux en Python - Parte 2. INSTALACION (Dependencias y configuracion)
-https://youtu.be/PpXvSYYjAzw
+1. [MARKOPOLO - FUNCIONAMIENTO 1 (el modulo central)](https://youtu.be/1I5hvOpqUqc)
 
+1. [MARKOPOLO - FUNCIONAMIENTO 2 (creacion de TAGs)](https://youtu.be/PVjIfOx0BOw)
 
-3- MARKOPOLO - Asistente para Linux en Python - Parte 3. FUNCIONAMIENTO 1 (el modulo central)
-https://youtu.be/1I5hvOpqUqc
+1. [MARKOPOLO - FUNCIONAMIENTO 3 (aclaracion sobre TAGs)](https://youtu.be/45zVzhgyUzE)
 
+1. [MARKOPOLO - CONFIGURACION (archivos)](https://youtu.be/WiW1LX7GFB4)
 
-4- MARKOPOLO - Asistente para Linux en Python - Parte 4. FUNCIONAMIENTO 2 (creacion de TAGs)
-https://youtu.be/PVjIfOx0BOw
+1. [MARKOPOLO - RECONOCIMIENTO DE VOZ Y CLIENTES](https://youtu.be/GAmsE9reBuo)
 
+1. [MARKOPOLO - PREGUNTAS DEL SERVIDOR](https://youtu.be/HFI8qgM8ZwE)
 
-5- MARKOPOLO - Asistente para Linux en Python - Parte 5. FUNCIONAMIENTO 3 (aclaracion sobre TAGs)
-https://youtu.be/45zVzhgyUzE
-
-
-6- MARKOPOLO - Asistente para Linux en Python - Parte 6. CONFIGURACION (archivos)
-https://youtu.be/WiW1LX7GFB4
-
-
-7- MARKOPOLO - Asistente para Linux en Python - Parte 7. RECONOCIMIENTO DE VOZ Y CLIENTES
-https://youtu.be/GAmsE9reBuo
-
-
-8- MARKOPOLO - Asistente para Linux en Python - Parte 8. PREGUNTAS DEL SERVIDOR
-https://youtu.be/HFI8qgM8ZwE
 
