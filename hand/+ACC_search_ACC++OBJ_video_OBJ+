@@ -3,7 +3,7 @@
 INGRESO=$2
 USUARIO=$1
 
-aplay `ls ../voice/working/* | shuf -n 1`
+gdbus call --session \ --dest=org.freedesktop.Notifications \ --object-path=/org/freedesktop/Notifications \ --method=org.freedesktop.Notifications.Notify \ "Markopolo" 0 "" 'Abriendo Youtube' '' \ '[]' '{"urgency": <1>}' 5000
 
 notify-send 'Markopolo' 'Buscando en Youtube'
 
