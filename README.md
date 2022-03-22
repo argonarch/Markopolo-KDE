@@ -6,19 +6,16 @@ Incluye hotword (parabra de iniciacion, ej: Okey, google o Hi, bixby ), reconoci
 
 ## INSTALACION:
 
-Instalar dependencias
+1. Instalar dependencias
 
-    sudo apt install python3-pyaudio libatlas-base-dev screen wmctrl xdotool
+        sudo apt install python3-pyaudio libatlas-base-dev screen wmctrl xdotool
+1. Instalar [Google Chrome](https://www.google.com/chrome/index.html)
 
-Instalar Google Chrome
+1. Clonar repositorio y conceder permisos al microfono
 
-    Visitar https://www.google.com/chrome/index.html
-
-Clonar repositorio y conceder permisos al microfono
-
-    git clone http://github.com/jazx/markopolo
-    cd markopolo
-    sh configurar.sh
+        git clone http://github.com/jazx/markopolo
+        cd markopolo
+        sh configurar.sh
 
 (Al abrir el navegador clikear en la esquina superior izquierda y PERMITIR cuando el navegaor pregunte por el acceso al mic)
 
