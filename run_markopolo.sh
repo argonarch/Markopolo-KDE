@@ -42,8 +42,6 @@ wmctrl -R 'Markopolo Ear' -b add,skip_taskbar
 ANCHO=`xrandr | grep '*' | awk '{print $1}' | sed 's/x.*$//g'`
 # define ubicacion y tamaño de la ventana de google-chrome
 wmctrl -R 'Markopolo Ear' -e 0,0,0,$ANCHO,45 
-# en xfce4 agrega un margen de 45 pixeles en la parte superior
-xfconf-query -c xfwm4 -p /general/margin_top -s 45
 
 echo '  > Borrando la cache del navegador'
 rm -Rf /home/$USER/.cache/google-chrome
