@@ -17,30 +17,21 @@ from markopolo_config import *
 # GET /PSW_venecia_PSWUSR_marcos_USRCOM_frase+a+procesar_COM HTTP/1.1
 # donde: PSW_venecia_PSW define el password como -venecia-
 #        USR_marcos_USR define el usuario como -marcos-
-#        COM_frase+a+procesar_COM define la comunicacion entrante como -frase+a+procesar-
- 
+#        COM_frase+a+procesar_COM define la comunicacion entrante como -frase+a+procesar- 
+
 
 def first_corrections(ingreso):
-	#vocales minusculas con tilde
-	ingreso = ingreso.replace('%C3%A1','a')
-	ingreso = ingreso.replace('%C3%A9','e')
-	ingreso = ingreso.replace('%C3%AD','i')
-	ingreso = ingreso.replace('%C3%B3','o')
-	ingreso = ingreso.replace('%C3%BA','u')
-	ingreso = ingreso.replace('á','a')
-	ingreso = ingreso.replace('é','e')
-	ingreso = ingreso.replace('í','i')
-	ingreso = ingreso.replace('ó','o')
-	ingreso = ingreso.replace('ú','u')
-	#Eñes
-	ingreso = ingreso.replace('%C3%91','N')
-	ingreso = ingreso.replace('%C3%B1','n')
-	#vocales mayusculas con tilde
-	ingreso = ingreso.replace('%C3%81','A')
-	ingreso = ingreso.replace('%C3%89','E')
-	ingreso = ingreso.replace('%C3%8D','I')
-	ingreso = ingreso.replace('%C3%93','O')
-	ingreso = ingreso.replace('%C3%9A','U')
+#vocales minusculas con tilde
+	replacements = (
+		("á", "a"),
+		("é", "e"),
+		("í", "i"),
+		("ó", "o"),
+		("ú", "u"),
+		("ñ", "n"),
+	)
+	for a, b in replacements:
+		ingreso = ingreso.replace(a, b).replace(a.upper(), b.upper())
 	return ingreso
 
 	
