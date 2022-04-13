@@ -2,6 +2,9 @@
 Markopolo KDE
 </h1>
 <br>
+<h4>
+**ATENCION**: Por cambios en la estructura en el Proyecto MarcoPolo-KDE se redirigira al siguiente repositorio https://github.com/argonarch/Marko_Polo, en el se encontrara una version mas optimizada y mejorada de markopolo
+</h4>
 Una bifurcacion del proyecto [Marcopolo de jazx](https://github.com/jazx/markopolo), pero adaptado al entorno de Kde Neon.
 
 Es un Pequeño y liviano **asistente virtual** contruido en python3, html/css y javascript.
